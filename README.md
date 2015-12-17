@@ -28,4 +28,30 @@ HomeBrew 설치후 아래의 명령어를 입력한다.
 
 참고 : https://github.com/git-ftp/git-ftp
 
+3. Git FTP 배포 방법
+- Git Bash를 이용
+Git 다음 명령어들은 해당 로컬 git 저장소 경로로 이동한 후에 실행해야 한다.
+
+1)로컬에만 파일이있고 아직 FTP에 아무 파일도 업로드 되지 않은 상태라면 다음 명령어를 사용하여 초기화 한다.
+
+ git ftp init --user [ftp사용자] --passwd [ftp비번] - ftp://www.example.com
+
+2)로컬에 파일이 있으며 이미 동일한 모든 파일이 수동으로 FTP에도 업로드가 되어있는 경우 다음명령어를 통해 초기화 한다.
+
+ git ftp catchup -u [ftp사용자] -p [ftp비번] - ftp://www.example.com
+ 
+3)이미 위의 명령어들을 통해 초기화 되어있는 상황에서, 로컬에 수정사항을 서버로 업로드하고싶을경우 다음 명령어를 사용한다.
+
+ git ftp push -u [ftp사용자] -p [ftp비번] - ftp://www.example.com
+ 
+- SourceTree를 이용하는 방법
+SourceTree 를 열고 Preferences/Custom Actions를 누른다.(한글인 경우 도구->옵션으로 들어간 후 커스텀 액션탭으로 이동)
+Add를 누르고
+Menu Caption : Git FTP Init
+Script to run에 다음 파일을 선택한다. gitFtpInit.sh
+Parameters : $REPO username password url
+Example) $REPO GitTester GitTester ftp://localhost/
+ 
+gitFtpPush.sh도 같은 방법으로 추가한다.(Menu Caption은 Git FTP Push로)
+
 
