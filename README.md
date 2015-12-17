@@ -61,6 +61,7 @@ Example) $REPO GitTester GitTester ftp://localhost/<br/>
 gitFtpPush.sh도 같은 방법으로 추가한다.(Menu Caption은 Git FTP Push로)<br/>
 <br/>
 저장소 경로가 초기화 되지 않았을 경우에는 Actions -> Custom Actions에 있는 Git FTP Init버튼을<br/>
-수정사항을 서버로 업로드 하고 싶을 경우 Actions -> Custom Actions에 있는 Git FTP Push를 이용한다.
+수정사항을 서버로 업로드 하고 싶을 경우 Actions -> Custom Actions에 있는 Git FTP Push를 이용한다.<br/>
+<br/>
 
-
+참고 : http://eppz.eu/blog/git-to-ftp/
