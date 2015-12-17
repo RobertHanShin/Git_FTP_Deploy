@@ -46,12 +46,15 @@ Git 다음 명령어들은 해당 로컬 git 저장소 경로로 이동한 후�
  
 - SourceTree를 이용하는 방법
 SourceTree 를 열고 Preferences/Custom Actions를 누른다.(한글인 경우 도구->옵션으로 들어간 후 커스텀 액션탭으로 이동)
-Add를 누르고
-Menu Caption : Git FTP Init
-Script to run에 다음 파일을 선택한다. gitFtpInit.sh
-Parameters : $REPO username password url
-Example) $REPO GitTester GitTester ftp://localhost/
- 
+Add를 누르고 <br/>
+Menu Caption : Git FTP Init<br/>
+Script to run에 다음 파일을 선택한다. gitFtpInit.sh<br/>
+Parameters : $REPO username password url<br/>
+Example) $REPO GitTester GitTester ftp://localhost/<br/>
+ <br/>
 gitFtpPush.sh도 같은 방법으로 추가한다.(Menu Caption은 Git FTP Push로)
+
+저장소 경로가 초기화 되지 않았을 경우에는 Actions -> Custom Actions에 있는 Git FTP Init버튼을<br/>
+수정사항을 서버로 업로드 하고 싶을 경우 Actions -> Custom Actions에 있는 Git FTP Push를 이용한다.
 
 
