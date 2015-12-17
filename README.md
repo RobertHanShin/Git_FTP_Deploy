@@ -1,5 +1,5 @@
 # GitFTPTest<br/>
-1. Git 설치 <br/>
+1.Git 설치 <br/>
 
 - Windows<br/>
 https://git-for-windows.github.io/<br/>
@@ -9,7 +9,7 @@ Mac에 Git을 설치하는 방법 중에서 Xcode Command Line Tools가 설치�
 좀 더 최신 버전이 필요하면 바이너리 인스톨러로 설치할 수 있다. OSX용 Git 인스톨러는 Git 웹사이트에서 관리하고 http://git-scm.com/download/mac 에서 내려받는다.<br/>
 참고 : https://git-scm.com/book/ko/v2/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EC%84%A4%EC%B9%98<br/>
 <br/>
-2. Git FTP 설치<br/>
+2.Git FTP 설치<br/>
 - Windows<br/>
 Git Bash를 이용하여 아래의 명령어를 입력하면 자동으로 설치된다.<br/>
 $ cd ~<br/>
@@ -29,7 +29,7 @@ HomeBrew 설치후 아래의 명령어를 입력한다.<br/>
 <br/>
 참고 : https://github.com/git-ftp/git-ftp<br/>
 <br/>
-3. Git FTP 배포 방법<br/>
+3.Git FTP 배포 방법<br/>
 - Git Bash를 이용<br/>
 Git 다음 명령어들은 해당 로컬 git 저장소 경로로 이동한 후에 실행해야 한다.<br/>
 <br/>
