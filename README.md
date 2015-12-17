@@ -1,5 +1,6 @@
 # GitFTPTest<br/>
-1. Git 설치<br/>
+1. Git 설치 <br/>
+
 - Windows<br/>
 https://git-for-windows.github.io/<br/>
 
