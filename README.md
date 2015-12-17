@@ -45,10 +45,17 @@ Git 다음 명령어들은 해당 로컬 git 저장소 경로로 이동한 후�
  git ftp push -u [ftp사용자] -p [ftp비번] - ftp://www.example.com
  
 - SourceTree를 이용하는 방법
+1) Mac
+gitFtpInit.sh, gitFtpPush.sh 파일을 다운받고
+/usr/local/bin 경로로 복사한다.
+두 파일을 사용가능하도록 권한을 준다.
+chmod +x /usr/local/bin/gitFtpInit.sh
+chmod +x /usr/local/bin/gitFtpPush.sh
+
 SourceTree 를 열고 Preferences/Custom Actions를 누른다.(한글인 경우 도구->옵션으로 들어간 후 커스텀 액션탭으로 이동)
 Add를 누르고 <br/>
 Menu Caption : Git FTP Init<br/>
-Script to run에 다음 파일을 선택한다. gitFtpInit.sh<br/>
+Script to run에 다음 파일을 선택한다. /usr/local/bin/gitFtpInit.sh<br/>
 Parameters : $REPO username password url<br/>
 Example) $REPO GitTester GitTester ftp://localhost/<br/>
  <br/>
