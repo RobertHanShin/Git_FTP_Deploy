@@ -52,7 +52,7 @@ Git 다음 명령어들은 해당 로컬 git 저장소 경로로 이동한 후�
  $ git config git-ftp.syncroot path/dir<br/>
 
 <br/>
-- SourceTree를 이용하는 방법<br/>
+<Strike>- SourceTree를 이용하는 방법<br/>
 1) Mac<br/>
 gitFtpInit.sh, gitFtpPush.sh 파일을 다운받고 /usr/local/bin 경로로 복사한다.<br/>
 두 파일을 사용가능하도록 권한을 준다.<br/>
@@ -70,6 +70,6 @@ gitFtpPush.sh도 같은 방법으로 추가한다.(Menu Caption은 Git FTP Push�
 <br/>
 저장소 경로가 초기화 되지 않았을 경우에는 Actions -> Custom Actions에 있는 Git FTP Init버튼을<br/>
 수정사항을 서버로 업로드 하고 싶을 경우 Actions -> Custom Actions에 있는 Git FTP Push를 이용한다.<br/>
-<br/>
+<br/></strike>
 
 참고 : http://eppz.eu/blog/git-to-ftp/
