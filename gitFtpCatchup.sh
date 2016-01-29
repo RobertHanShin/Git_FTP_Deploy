@@ -14,6 +14,6 @@ echo "Switching directory to repository root at '$REPOSITORY_PATH'"
 cd "$REPOSITORY_PATH"
 
 echo "Pushing latest checkout to '$FTP_PATH' with the given credentials"
-/usr/local/bin/git-ftp push -u $FTP_USERNAME -p $FTP_PASSWORD -A "$FTP_PATH"
+/usr/local/bin/git-ftp catchup -u $FTP_USERNAME -p $FTP_PASSWORD "$FTP_PATH" -A
 
 exit 0
