@@ -45,11 +45,11 @@ Git 다음 명령어들은 해당 로컬 git 저장소 경로로 이동한 후�
 <br/>
  git ftp push -u [ftp사용자] -p [ftp비번] - ftp://www.example.com<br/>
 <br/>
-깃 설정을 통해 미리 아이디, 패스워드, 소스경로, FTP경로를 설정할 수 있다.
- $ git config git-ftp.user john
- $ git config git-ftp.url ftp.example.com
- $ git config git-ftp.password secr3t
- $ git config git-ftp.syncroot path/dir
+깃 설정을 통해 미리 아이디, 패스워드, 소스경로, FTP경로를 설정할 수 있다.<br/>
+ $ git config git-ftp.user john<br/>
+ $ git config git-ftp.url ftp.example.com<br/>
+ $ git config git-ftp.password secr3t<br/>
+ $ git config git-ftp.syncroot path/dir<br/>
 
 <br/>
 - SourceTree를 이용하는 방법<br/>
