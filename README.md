@@ -56,7 +56,7 @@ git ftp Init -A<br/>
 git ftp catchup -A
 명령어만 입력하면 된다.
 <br/>
-<Strike>- SourceTree를 이용하는 방법<br/>
+- SourceTree를 이용하는 방법<br/>
 1) Mac<br/>
 gitFtpInit.sh, gitFtpPush.sh 파일을 다운받고 /usr/local/bin 경로로 복사한다.<br/>
 두 파일을 사용가능하도록 권한을 준다.<br/>
@@ -67,14 +67,14 @@ SourceTree 를 열고 Preferences/Custom Actions를 누른다.(한글인 경우 
 Add를 누르고 <br/><br/>
 Menu Caption : Git FTP Init<br/>
 Script to run에 다음 파일을 선택한다. /usr/local/bin/gitFtpInit.sh<br/>
-Parameters : $REPO username password url<br/>
+Parameters : $REPO<br/>
 Example) $REPO GitTester GitTester ftp://localhost/<br/>
  <br/>
 gitFtpPush.sh도 같은 방법으로 추가한다.(Menu Caption은 Git FTP Push로)<br/>
 <br/>
 저장소 경로가 초기화 되지 않았을 경우에는 Actions -> Custom Actions에 있는 Git FTP Init버튼을<br/>
 수정사항을 서버로 업로드 하고 싶을 경우 Actions -> Custom Actions에 있는 Git FTP Push를 이용한다.<br/>
-<br/></strike>
+<br/>
 
 참고 : http://eppz.eu/blog/git-to-ftp/
 깃 설정 관련 명령어 : http://manpages.ubuntu.com/manpages/saucy/man1/git-ftp.1.html
