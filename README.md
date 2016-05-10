@@ -52,7 +52,6 @@ Git 다음 명령어들은 해당 로컬 git 저장소 경로로 이동한 후�
  $ git config git-ftp.syncroot path/dir<br/>
 미리 설정한 경우<br/>
 git ftp push -A<br/>
-git ftp Init -A<br/>
 git ftp catchup -A
 명령어만 입력하면 된다.
 <br/>
